@@ -2723,7 +2723,7 @@
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #7ecaf6;
 			}
 
 			.tiles article.style2 > .image:before {
@@ -2853,7 +2853,7 @@
 			display: block;
 			border-bottom: 0;
 			color: inherit;
-			font-weight: 900;
+			font-weight: 800;
 			letter-spacing: 0.35em;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
