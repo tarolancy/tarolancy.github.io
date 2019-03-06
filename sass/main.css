@@ -2478,15 +2478,15 @@ button,
     .tiles article.style1 > .image:before, .tiles article.style9 > .image:before {
       background-color: #FFD438; }
     .tiles article.style2 > .image:before, .tiles article.style7 > .image:before {
-      background-color: #f2849e; }
+      background-color: #6CA5CE; }
     .tiles article.style3 > .image:before, .tiles article.style8 > .image:before {
-      background-color: #7bd0c1; }
+      background-color: #5EAC96; }
     .tiles article.style4 > .image:before, .tiles article.style12 > .image:before {
-      background-color: #c75b9b; }
+      background-color: #FD829B; }
     .tiles article.style5 > .image:before, .tiles article.style10 > .image:before {
-      background-color: #ae85ca; }
+      background-color: #A8BAE4; }
     .tiles article.style6 > .image:before, .tiles article.style11 > .image:before {
-      background-color: #8499e7; }
+      background-color: #DEDEDE; }
     body:not(.is-touch) .tiles article:hover > .image {
       -moz-transform: scale(1.1);
       -webkit-transform: scale(1.1);
