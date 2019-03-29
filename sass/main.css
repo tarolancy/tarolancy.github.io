@@ -2485,9 +2485,9 @@ button,
     .tiles article.style4 > .image:before, .tiles article.style12 > .image:before {
       background-color: #5EAC96; }
     .tiles article.style5 > .image:before, .tiles article.style10 > .image:before {
-      background-color: #FD829B; }
-    .tiles article.style6 > .image:before, .tiles article.style11 > .image:before {
       background-color: #A8BAE4; }
+    .tiles article.style6 > .image:before, .tiles article.style11 > .image:before {
+      background-color: #FD829B; }
     body:not(.is-touch) .tiles article:hover > .image {
       -moz-transform: scale(1.1);
       -webkit-transform: scale(1.1);
