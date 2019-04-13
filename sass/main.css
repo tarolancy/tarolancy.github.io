@@ -2713,8 +2713,8 @@ button,
   max-width: 80%;
   height: 100%;
   -webkit-overflow-scrolling: touch;
-  background: #585858;
-  color: #ffffff;
+  background: #ffffff;
+  color: #585858;
   cursor: default;
   visibility: hidden;
   z-index: 10002; }
@@ -2738,7 +2738,7 @@ button,
       padding: 0; }
       #menu > .inner > ul > li {
         padding: 0;
-        border-top: solid 1px rgba(255, 255, 255, 0.15); }
+        border-top: solid 1px rgba(88, 88, 88, 0.15); }
         #menu > .inner > ul > li a {
           display: block;
           padding: 1em 0;
