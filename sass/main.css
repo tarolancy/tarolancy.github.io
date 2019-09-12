@@ -1056,10 +1056,10 @@ p {
   margin: 0 0 1em 0; }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 4em;
   font-weight: 700;
-  line-height: 0.5;
-  margin: 0 0 1.8em 0;
+  line-height: 1;
+  margin: 0 0 1em 0;
   letter-spacing: 0.3em; }
   h1 a {
     color: inherit; }
@@ -2594,7 +2594,7 @@ button,
 
 /* Header */
 #header {
-  padding: 8em 0 0.1em 0 ; }
+  padding: 4em 5em 3em 0 ; }
   #header .logo {
     display: block;
     border-bottom: 0;
