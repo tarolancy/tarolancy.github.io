@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.font.im/css?family=Josefin+Sans:300");
+@import url("https://fonts.font.im/css?family=Scheherazade|Crimson+Text");
 /*
 	Phantom by HTML5 UP
 	html5up.net | @n33co
@@ -1023,9 +1023,8 @@ body {
 /* Type */
 body, input, select, textarea {
   color: #000000;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Crimson Text", serif;
   font-size: 16pt;
-  font-weight: 300;
   line-height: 1.75; }
   @media screen and (max-width: 1680px) {
     body, input, select, textarea {
@@ -1057,10 +1056,10 @@ p {
 
 h1 {
   font-size: 4em;
-  font-weight: 700;
+  font-family: "Scheherazade", serif;
   line-height: 1.2;
   margin: 0 0 1em 0;
-  letter-spacing: 0.2em; }
+  letter-spacing: 0.1em; }
   h1 a {
     color: inherit; }
   h1.title {
@@ -1074,26 +1073,33 @@ h1 {
       font-size: 1.75em;
       margin: 0 0 1em 0; } }
 
-h2, h3, h4, h5 {
+h2 {
   font-weight: 900;
   line-height: 1.5;
   margin: 0 0 2em 0;
   text-transform: uppercase;
-  letter-spacing: 0.2em; }
-  h2 a, h3 a, h4 a, h5 a {
+  letter-spacing: 0.1em; }
+  h2 a {
+    color: inherit; }
+
+h3, h4, h5 {
+  line-height: 1.5;
+  margin: 0 0 2em 0;
+  letter-spacing: 0.1em; }
+  h3 a, h4 a, h5 a {
     color: inherit; }
 
 h2 {
   font-size: 1em; }
 
 h3 {
-  font-size: 0.8em; }
+  font-size: 1em; }
 
 h4 {
   font-size: 0.6em; }
 
 h5 {
-  font-size: 3em; }
+  font-size: 1.5em; }
 
 h6 {
   font-size: 0.8em; }
@@ -1130,14 +1136,14 @@ blockquote {
 code {
   background: rgba(144, 144, 144, 0.075);
   border-radius: 4px;
-  font-family: "Courier New", monospace;
+  font-family: "Scheherazade", serif;
   font-size: 0.9em;
   margin: 0 0.25em;
   padding: 0.25em 0.65em; }
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "Courier New", monospace;
+  font-family: "Scheherazade", serif;
   font-size: 0.9em;
   margin: 0 0 2em 0; }
   pre code {
@@ -2268,10 +2274,10 @@ button,
   font-size: 0.8em;
   font-weight: 900;
   height: 3.5em;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   line-height: 3.45em;
   overflow: hidden;
-  padding: 0 1.25em 0 1.45em;
+  padding: 0 1.25em 0 1.35em;
   text-align: center;
   text-decoration: none;
   text-overflow: ellipsis;
@@ -2403,7 +2409,7 @@ button,
         height: 100%;
         opacity: 1.0;
         z-index: 1;
-        opacity: 0.8; }
+        opacity: 0.85; }
       .tiles article > .image:after {
         -moz-pointer-events: none;
         -webkit-pointer-events: none;
@@ -2456,7 +2462,7 @@ button,
       border-radius: 4px;
       border-bottom: 0;
       color: #ffffff;
-      text-align: center;
+      text-align: left;
       text-decoration: none;
       z-index: 3; }
       .tiles article > a > :last-child {
@@ -2496,7 +2502,7 @@ button,
       transform: scale(1.1); }
       body:not(.is-touch) .tiles article:hover > .image:before {
         background-color: #333333;
-        opacity: 0.35; }
+        opacity: 0.8; }
       body:not(.is-touch) .tiles article:hover > .image:after {
         opacity: 0; }
     body:not(.is-touch) .tiles article:hover .content {
@@ -2548,7 +2554,7 @@ button,
   .archives .archive-title {
     margin: 0 0 30px 27px;
     font-weight: 900;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block; }
@@ -2600,7 +2606,7 @@ button,
     border-bottom: 0;
     color: inherit;
     font-weight: 900;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     margin: 0 0 2.5em 0;
     text-decoration: none;
     text-transform: uppercase;
@@ -2645,7 +2651,7 @@ button,
           border: 0;
           font-size: 0.8em;
           font-weight: 900;
-          letter-spacing: 0.2em;
+          letter-spacing: 0.1em;
           text-transform: uppercase; }
         #header nav ul li a[href="#menu"] {
           -webkit-tap-highlight-color: transparent;
